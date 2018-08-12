@@ -7,3 +7,5 @@
 #
 layout: home
 ---
+
+![teamphoto](/assets/frontpage.jpg)

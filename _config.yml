@@ -31,6 +31,14 @@ minima:
 # Build settings
 theme: minima
 
+header_pages:
+  - About.md
+  - Mechanical.md 
+  - Electrical.md 
+  - Software.md
+  - Reflections.md
+
+
 plugins:
  - jekyll-feed
  - jekyll-seo-tag

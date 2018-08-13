@@ -11,3 +11,5 @@ Minute after minute, hour after hour
 Everybody's running, but half of them ain't lookin' 
 
 It's going on in the kitchen, but I don't know what's cookin' 
+
+![alternativetext](assets/SL-H-Bridge.png)

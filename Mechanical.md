@@ -10,6 +10,7 @@ Another day full of popirozzi. "Any publicity is good publicity". It's so hard t
 This is me.
 
 ![chassispix](/assets/popirozzi.jpg)
+![moreChassis](/assets/Chassis_4.JPG)
 
 ## Claw
 

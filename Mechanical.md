@@ -8,7 +8,7 @@ The mechanical components of our robot consisted of five main parts. These parts
 
 We designed each component using onShape a free online CAD software, making collaboration a simple process. To manufacture each element of our robot, we used a combination of laser cut and waterjet cut parts as well as a few 3D printed parts.  
 
-![chassisCAD](/assets/chassis.png)
+![chassisCAD](/assets/chassis.PNG)
 
 ## Chassis
 
@@ -27,7 +27,7 @@ We made the chassis out of high density fiberboard (hardboard) since it was a li
 ![claw](/assets/claw.jpg)
 
 
-![basket](/assets/basket.jpg)  | ![moreBasket](/assets/Chassis_6.jpg)
+![basket](/assets/basket.jpg)  | ![moreBasket](/assets/Chassis_6.JPG)
 
 ##  Scissor Lift and Basket
 

@@ -56,7 +56,6 @@ main {
  */
 img {
   max-width: 100%;
-  vertical-align: middle;
 }
 
 
@@ -94,7 +93,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+  font-weight: $heading-font-weight;
 }
 
 
@@ -111,8 +110,9 @@ a {
   }
 
   &:hover {
-    color: $text-color;
-    text-decoration: underline;
+    //color: $hover-color;
+    font-weight: bold;
+    font-style: italic;
   }
 
   .social-media-list &:hover {
@@ -232,23 +232,26 @@ table {
   margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
-  color: lighten($text-color, 18%);
   border-collapse: collapse;
-  border: 1px solid $grey-color-light;
+  border: none;
+  }
+
   tr {
-    &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
-    }
+  background-color: none;
   }
   th, td {
+    vertical-align: top;
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
+    text-align: center;
   }
   th {
-    background-color: lighten($grey-color-light, 3%);
-    border: 1px solid darken($grey-color-light, 4%);
-    border-bottom-color: darken($grey-color-light, 12%);
+    border: none;
   }
   td {
-    border: 1px solid $grey-color-light;
+    border: none;
   }
-}
+
+img.linx {
+    height: 1.4em;
+    display: inline;
+    }

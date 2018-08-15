@@ -1,43 +1,62 @@
 ---
 layout: page
 title: Mechanical
-permalink: /mech/
+permalink: /mechanical/
 ---
 
-The mechanical components of our robot consisted of five main parts. These parts were, the chassis, basket, scissor lift, bridge as well as the claw and arm. The philosophy we followed when designing each part of the robot was to have a simple modular design that we can test separately and easily integrate later.
+The mechanical components of our robot consisted of five main parts:
 
-We designed each component using onShape a free online CAD software, making collaboration a simple process. To manufacture each element of our robot, we used a combination of laser cut and waterjet cut parts as well as a few 3D printed parts.  
+- chassis
+- basket
+- scissor lift
+- bridge(s)
+- claw
 
-![chassisCAD](/assets/chassis.PNG)
+The philosophy we followed when designing each part of the robot was to have a simple modular design that we can test separately and easily integrate later.
+
+We designed each component using [Onshape](https://www.onshape.com/), a free online CAD software, making collaboration a simple process. We manufactured our robot with a combination of laser cut, waterjet cut, and 3D printed parts.   
 
 ## Chassis
 
-We made the chassis out of high density fiberboard (hardboard), Since it was a light but strong material which was easy to prototype with on the laser cutter. We went through several iterations of the design, tweaking it each time to accommodate other parts of our robot. Finally, we settled with a design that maximized accessibility for our circuitry while also used the limited space efficiently by using a two level design.
+![chassisCAD](/assets/chassis.PNG)
 
-![chassispix](/assets/popirozzi.jpg)
+We made the chassis out of high density fiberboard (hardboard), as it is a light, yet strong material easy to prototype on the laser cutter. We went through several iterations, tweaking it each time to accommodate other parts of our robot. We settled for a design that had open sides that maximized accessibility for our circuitry, along with a dual-level system that would separate electrical components from moving mechanical components, such as the claw and scissor lift. 
 
-
-![moreChassis](/assets/Chassis_4.JPG)
-
+![final chassis with Ewok](/assets/Chassis_4.JPG)
 
 ## Claw
 
-[Need something here!!] 
+![claw](/assets/claw.jpg)
+We wanted one central claw that could grab Ewoks from either side. To do this, we needed a high level of control in terms of the position of the claw, and so we elected to use a collection of servo motors. 
 
-<div style="text-align:center" markdown="1">
-![claw](/assets/claw.jpg){:height="50%" width="50%"}
-</div>
+Initial prototypes were made from hardboard, which proved to be a bit too flimsy. We then tried polycarbonate, which was too heavy of a load for the servos. We thought about using a DC motor with touch sensors at a few key positions, but would add much more complexity to the design. Finally, we use the waterjet to cut aluminum sheet metal, with flanges for rigidity, and used two servos driven from the same signal pin to control the base, which required the most torque.
+![CAD of claw](/assets/clawcad.png)
 
-![basket](/assets/basket.jpg)  | ![lift](/assets/lift.png)
+The full range of motion was a combination of
+
+- 360 degree rotation about the base from a lazy susan bearing 
+- 90 degree rotation at the base 
+- 90 degree rotation at the "elbow" 
+- Opening and closing of the grippers
+
+<p style="text-align:center"><img src="/assets/clawgif.gif"></p>
 
 ##  Scissor Lift and Basket
 
-We primarily designed the basket and scissor lift together. Due to the large size of the Ewoks and Chewie and the fact that our claw needed to drop them into the basket; we knew we needed a something large. Thus, to satisfy this need and given a limited amount of space we decided to make a wide and short basket. For our scissor lift, after several experiments with hardboard we utilized acrylic for to its relatively low friction as compared to hardboard. After first looking into a rack and pinion system and then a spool and string mechanism, we settled on a lead screw driven lift as this seemed to be the most reliable tool to actuate the lift.
+![lift](/assets/lift.png)
 
-![moreBasket](/assets/Chassis_6.JPG) | ![bridge](/assets/bridge.jpg)
+We experimented with different materials for the scissor lift, but decided on acrylic for its lower friction (compared to hardboard) and lightness. After first looking into a rack and pinion system, then a spool and string mechanism, we settled on a lead screw system, as this had the best balance of reliability, flexibility, and control to actuate the lift.
+
+![basket](/assets/basket.jpg)
+
+The basket and scissor lift were designed together to work together. The Ewoks and Chewbacca occupied a lot of space, and to create that volume efficiently, we opted for a wide and short basket. 
 
 ## Bridge
 
-Initially we had ideas of lifting ourselves over the gaps using two arms in front and two in back. However, we soon found that this idea would take more time to implement than was given for this project. Thus, we decided to use a bridge to cross the gap. Our bridge design followed our overall motive of keeping things simple and easy to design. We used sheet metal since it was light yet could be bent to make it much stronger. We added curls on the bottom of our bridge so that it would drop into the gap and be secure while we were moving over top.
+![bridge](/assets/bridge.jpg)
+
+Initially, we had ideas of lifting ourselves over the gaps with using two unfolding arms each in the front and back. Halfway into the design process we realized that this idea would take more time to implement than was given for this project. We then decided to use bridges to cross the gaps.
+
+Our bridge design followed our overall motive of keeping things simple and easy to design. We used sheet metal as it is light but strong. We added curled supports on the bottom of our bridge so that it would drop into the gap more reliably and be secure while we were moving across it.
 
 ![basketlift](/assets/basket_and_lift.jpg)

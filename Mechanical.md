@@ -4,11 +4,10 @@ title: Mechanical
 permalink: /mechanical/
 ---
 
-The mechanical components of our robot consisted of five main parts:
+The mechanical components of our robot consisted of four main parts:
 
 - chassis
 - basket
-- scissor lift
 - bridge(s)
 - claw
 
@@ -24,12 +23,14 @@ We made the chassis out of high density fiberboard (hardboard), as it is a light
 
 ![final chassis with Ewok](/assets/Chassis_4.JPG)
 
+<p style="font-size:15px"  align="center"><em>The final chassis all put together</em></p> 
+
 ## Claw
 
 ![claw](/assets/claw.jpg)
 We wanted one central claw that could grab Ewoks from either side. To do this, we needed a high level of control in terms of the position of the claw, and so we elected to use a collection of servo motors. 
 
-Initial prototypes were made from hardboard, which proved to be a bit too flimsy. We then tried polycarbonate, which was too heavy of a load for the servos. We thought about using a DC motor with touch sensors at a few key positions, but would add much more complexity to the design. Finally, we use the waterjet to cut aluminum sheet metal, with flanges for rigidity, and used two servos driven from the same signal pin to control the base, which required the most torque.
+Initial prototypes were made from hardboard, which proved to be a bit too flimsy. We then tried polycarbonate, which was too heavy. Finally, we used the waterjet to cut aluminum sheet metal, with flanges for rigidity, and used two servos driven from the same signal pin to give us the torque we required to control the base.
 ![CAD of claw](/assets/clawcad.PNG)
 
 The full range of motion was a combination of
@@ -41,22 +42,22 @@ The full range of motion was a combination of
 
 <p style="text-align:center"><img src="/assets/clawgif.gif"></p>
 
-##  Scissor Lift and Basket
-
-![lift](/assets/lift.png)
-
-We experimented with different materials for the scissor lift, but decided on acrylic for its lower friction (compared to hardboard) and lightness. After first looking into a rack and pinion system, then a spool and string mechanism, we settled on a lead screw system, as this had the best balance of reliability, flexibility, and control to actuate the lift.
+##  Basket
 
 ![basket](/assets/basket.jpg)
 
-The basket and scissor lift were designed together to work together. The Ewoks and Chewbacca occupied a lot of space, and to create that volume efficiently, we opted for a wide and short basket. 
+The Ewoks and Chewbacca occupied a lot of space, and to create that volume efficiently, we opted for a wide and short basket. 
 
 ## Bridge
 
 ![bridge](/assets/bridge.jpg)
 
-Initially, we had ideas of lifting ourselves over the gaps with using two unfolding arms each in the front and back. Halfway into the design process we realized that this idea would take more time to implement than was given for this project. We then decided to use bridges to cross the gaps.
-
 Our bridge design followed our overall motive of keeping things simple and easy to design. We used sheet metal as it is light but strong. We added curled supports on the bottom of our bridge so that it would drop into the gap more reliably and be secure while we were moving across it.
 
+
+
+
+
 ![basketlift](/assets/basket_and_lift.jpg)
+
+<p style="font-size:15px"  align="center"><em>Han Yolo</em></p> 

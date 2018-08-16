@@ -7,8 +7,8 @@ permalink: /competition/
 ![competition surface](/assets/compsurface.PNG)
 
 The competition required us to complete a series of tasks using a multifunctional autonomous robot: 
-  - following tape
-  - detecting and collecting objects
+  - following a black strip of electrical tape
+  - detecting and collecting objects the size of a soda
   - crossing a gaps
   - detecting an Infra-Red signal
   - detecting edges and avoiding a fall off the competition surface

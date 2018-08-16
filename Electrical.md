@@ -19,18 +19,15 @@ Our goal was to design an electrically robust system. How?
 
 For circuits which had a high likelihood of failure we made multiple sets of that circuit and designed our main PCB for easy exchange.
 
-Sensors:
-QRD 124 phototransistor for detecting 
+# Some Key circuits
 
-Microprocessors: We used a TINAH board (ENPH 253 modified arduino) and a separate arduino. The TINAH was the main processing unit, controlling the drive train, 1 RCservo, and processing the Photo
-
-Voltage regulators were required for powering some of our actuators. We compared linear vs. switching voltage regulators. From our assessment, cost, size and noise reduction were the most critical factors which led to us choosing linear regulators.
-
-
-## IR Circuit
+# Infra-Red signal Circuit
 
 ![IR-circuit-diagram](/assets/ir_circuit.png)
+An infra-red signal detector circuit was used to distinguish between a 1kHz and a 10kHz signal being emitted by R2D2 to allow the robot into the Stormtrooper stronghold without triggering an alarm. This circuit was particularly interesting because it was able to consistently detect and identify the signal from a distance of 10 meters!
 
-## H-Bridges
+
+# H-Bridges
 
 ![H-Bridge Circuit](/assets/hbridge.png)
+To enable differential drive, H-bridges where used to power motors. This H-Bridge circuit (developed by an ENPH alum Scott Lawson) was favourable because it was robust and easy to prototype on to a small PCB.

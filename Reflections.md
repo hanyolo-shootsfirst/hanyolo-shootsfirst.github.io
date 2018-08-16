@@ -13,6 +13,14 @@ Overall lessons learned and skills developed as a team:
 5. Approaching problems from a 1st principles view point to avoid technical debt later on.
 6. Grit in figuring things out after multiple attempts.
 
+Overall lessons learned and skills developed as a Team: 0. Working independently and contributing to a team effort.
+
+1) Project management - setting goals, timelines and trying to stick with to them while being flexible to adapt to new information.
+2) Attention to detail so as to minimize error in order to work within the time constraints.
+3) Design and prototyping.
+4) Debugging and finding the root cause of a problem.
+5) Approaching problems from a 1st principles view point to avoid technical debt later on.
+6) Grit in figuring things out after multiple attempts.
 
 ## Maria:
 
@@ -34,4 +42,5 @@ The importance of structured thinking became apparent early on and our approach 
 
 ![teamphoto](/assets/frontpage.jpg)
 
-<p align="center"><em>(left to right) Brendon Tankwa, Maria Sottile, Bereket Guta, Jessica Ma</em></p>
+<p align="center"><em>(left to right) Brendon Tankwa, Maria Sottile, Bereket Guta, Jessica Ma</em></p> 
+

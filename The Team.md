@@ -6,7 +6,7 @@ permalink: /team/
 
 <table style="table-layout:fixed; border: none">
 <tr>
-    <td><img src="/assets/brendon.jpg" alt="Brendon Tankwa" width="">
+    <td><img src="/assets/brendon.jpeg" alt="Brendon Tankwa" width="">
     </td>
     <td><img src="/assets/bereket.png" alt="Bereket Guta" width="">
     </td>

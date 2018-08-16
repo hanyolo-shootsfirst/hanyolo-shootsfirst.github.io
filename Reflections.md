@@ -6,6 +6,14 @@ permalink: /reflections/
 
 One thing we can certainly agree on is that this summer has been one of the most enriching, exciting, and efficient ways to learn engineering. It's difficult to try to summarize everything we've learned, but we all came out with reflections blah blah I hate this sentence. I haven't written anything in years lord help me (someone fix this or delete it)
 
+Overall lessons learned and skills developed as a Team: 0. Working independently and contributing to a team effort.
+
+1) Project management - setting goals, timelines and trying to stick with to them while being flexible to adapt to new information.
+2) Attention to detail so as to minimize error in order to work within the time constraints.
+3) Design and prototyping.
+4) Debugging and finding the root cause of a problem.
+5) Approaching problems from a 1st principles view point to avoid technical debt later on.
+6) Grit in figuring things out after multiple attempts.
 
 ## Maria:
 
@@ -22,3 +30,7 @@ This experience has taught me the lesson that a simple and robust design is most
 ![shoelaces](/assets/legs.PNG)
 
 ## Brendon:
+
+Working effectively in a team environment was a key learning point. Setting goals and tasks to be done was an evolving process and watching team dynamics evolve throughout the team was fascinating. Time constraints were palpable and the frustrations of facing setbacks due to the natural learning process led to a few full nights at the lab.
+
+The importance of structured thinking became apparent early on and our approach to the problem; modular, simple and effective design work, yeilded some good results. We adopted a continuous feedback loop within the team to achieve synergy. Some invaluable engineering principles were learnt: coming up with a schematic for your work before prototyping, documenting processes, debugging best practices.

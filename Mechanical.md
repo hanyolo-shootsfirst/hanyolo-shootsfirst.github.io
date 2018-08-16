@@ -4,16 +4,7 @@ title: Mechanical
 permalink: /mechanical/
 ---
 
-The mechanical components of our robot consisted of four main parts:
-
-- chassis
-- basket
-- bridge(s)
-- claw
-
-The philosophy we followed when designing each part of the robot was to have a simple modular design that we can test separately and easily integrate later.
-
-We designed each component using [Onshape](https://www.onshape.com/), a free online CAD software, making collaboration a simple process. We manufactured our robot with a combination of laser cut, waterjet cut, and 3D printed parts.   
+The mechanical components of our robot consisted of four main parts: a chassis, basket, bridge(s) and a claw. The philosophy we followed when designing each part of the robot was to have a simple modular design that we can test separately and easily integrate later. We designed each component using [Onshape](https://www.onshape.com/), a free online CAD software, making collaboration a simple process. We manufactured our robot with a combination of laser cut, waterjet cut, and 3D printed parts.   
 
 ## Chassis
 

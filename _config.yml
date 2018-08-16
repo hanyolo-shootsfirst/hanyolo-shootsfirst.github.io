@@ -32,7 +32,8 @@ minima:
 theme: minima
 
 header_pages:
-  - About.md
+  - The Team.md
+  - Competition.md
   - Mechanical.md 
   - Electrical.md 
   - Software.md

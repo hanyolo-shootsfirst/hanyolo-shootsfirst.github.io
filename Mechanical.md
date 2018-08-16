@@ -30,7 +30,7 @@ We made the chassis out of high density fiberboard (hardboard), as it is a light
 We wanted one central claw that could grab Ewoks from either side. To do this, we needed a high level of control in terms of the position of the claw, and so we elected to use a collection of servo motors. 
 
 Initial prototypes were made from hardboard, which proved to be a bit too flimsy. We then tried polycarbonate, which was too heavy of a load for the servos. We thought about using a DC motor with touch sensors at a few key positions, but would add much more complexity to the design. Finally, we use the waterjet to cut aluminum sheet metal, with flanges for rigidity, and used two servos driven from the same signal pin to control the base, which required the most torque.
-![CAD of claw](/assets/clawcad.png)
+![CAD of claw](/assets/clawcad.PNG)
 
 The full range of motion was a combination of
 

@@ -110,9 +110,9 @@ a {
   }
 
   &:hover {
-    //color: $hover-color;
-    font-weight: bold;
-    font-style: italic;
+    color: $hover-color;
+    //font-weight: bold;
+    //font-style: italic;
   }
 
   .social-media-list &:hover {

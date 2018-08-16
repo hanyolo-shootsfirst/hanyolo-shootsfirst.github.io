@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: The Team
+permalink: /team/
 ---
 
 <table style="table-layout:fixed; border: none">

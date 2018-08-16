@@ -9,8 +9,8 @@ permalink: /competition/
 The competition required us to complete a series of tasks using a multifunctional autonomous robot: 
   - following a black strip of electrical tape
   - detecting and collecting objects the size of a soda
-  - crossing a gaps
-  - detecting an Infra-Red signal
+  - crossing 6" gaps
+  - detecting a fluctuating Infra-Red signal
   - detecting edges and avoiding a fall off the competition surface
 
 Our strategy evolved with time. Initially the goal was to follow the tape until it ended while collecting all 3 Ewoks and detecting R2D2's signal. After that we would cross the second gap and apply an edge detection mechanism to lead us to the prime prize Chewabacca then ziplining all objects to safety.

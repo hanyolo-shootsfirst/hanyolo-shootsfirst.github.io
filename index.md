@@ -7,8 +7,6 @@
 #
 layout: home
 ---
-# HAN YOLO
-
 Han Yolo is a robot designed to compete in the [2018 Engineering Physics Robot Competition](https://projectlab.engphys.ubc.ca/enph253_2018/competition-2018/). He was built by four second-year Engineering Physics students: Brendon Tankwa, Bereket Guta, Jessica Ma, and Maria Sottile. For a better look at our code, check out our [GitHub repository](https://github.com/hanyolo-shootsfirst/hanyolo).
 
 ![han yolo, in his entirety](/assets/hanyolo.jpg)

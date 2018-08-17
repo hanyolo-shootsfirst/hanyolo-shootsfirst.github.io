@@ -10,18 +10,18 @@ Our two most important tasks were telling the robot how to move and sensing Ewok
 
 ## TINAH
 
-Originally, we divided the course into a series of states that corresponded to different actions. While elegant, this involved continuously checking to see what state we were in; instead, we opted to use a series of loops that didn't let our robot move on to another task until it had completed the current one.
+The TINAH was our main processing unit, which controlled the motion of the robot. We used C++ and its object-oriented capabilities. Our code was arranged into a series of loops that didn’t allow our robot to move on to another task until it had completed the current one. 
 
-<div style="text-align:center"><img style="width:70%" src="/assets/tinahflowchart.PNG"></div>
+<div style="text-align:center"><img style="width:70%" src="/assets/tinahflowchart.png"></div>
 
 ## Communication
-To keep coordination between our microprocessors as simple as possible, we had three lines of communication. The TINAH output two "enable" signals for right and left that told the Arduino where and if it should be looking for Ewoks. The Arduino had one signal that told the TINAH to pause while the claw rescued an Ewok, and resume motion afterwards.
+We had three lines of digital communication. The TINAH output two "enable" signals for right and left that told the Arduino where and if it should be looking for Ewoks. The Arduino output one signal that told the TINAH to pause while the claw rescued an Ewok, and resume motion afterwards.
 
-<div style="text-align:center"><img style="width:50%" src="/assets/comm.PNG"></div>
+<div style="text-align:center"><img style="width:50%" src="/assets/comm.png"></div>
 
 ## Arduino
 
-While our robot moved, the Arduino continuously looked for Ewoks. When one was found, it activated the claw. Through calibration, we determined the angles on our servo motors that corresponded to appropriate positions for the claw, and wrote functions such as `pickUpRight();` and `dropoff();`.
+While our robot moved, the Arduino continuously looked for Ewoks. When one was found, it activated the claw. We wrote functions that would allow the claw to pick up on either side by writing appropriate angles to each servo motor.  
 
-<div style="text-align:center"><img style="width:70%" src="/assets/arduinoflowchart.PNG"></div>
+<div style="text-align:center"><img style="width:70%" src="/assets/arduinoflowchart.png"></div>
 

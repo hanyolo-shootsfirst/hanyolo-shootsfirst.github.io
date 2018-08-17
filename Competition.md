@@ -4,7 +4,6 @@ title: Competition
 permalink: /competition/
 ---
 
-![competition surface](/assets/compsurface.PNG)
 
 The competition required us to complete a series of tasks using a multifunctional autonomous robot: 
   - following a black strip of electrical tape
@@ -12,6 +11,8 @@ The competition required us to complete a series of tasks using a multifunctiona
   - crossing 6" gaps
   - detecting a fluctuating Infra-Red signal
   - detecting edges and avoiding a fall off the competition surface
+  
+![competition surface](/assets/compsurface.PNG)
 
 Our strategy evolved with time. Initially the goal was to follow the tape using PD control, crossing one gap using an aluminium bridge, until the tape's end while collecting all 3 Ewoks using a double jointed claw and detecting R2D2's signal. After that we would cross the second gap and apply an edge detection mechanism to lead us to the prime prize Chewbacca then ziplining all objects to safety.
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The Team
+title: Team
 permalink: /team/
 ---
 
@@ -18,31 +18,28 @@ permalink: /team/
 <tr>
 
 <td>
-<strong>Brendon Tankwa</strong><br>Master of Circuitry<br>Designed, debugged, and built all of our complex circuits<br><br>
+<strong>Brendon Tankwa</strong><br>Designed, debugged, and built all of our complex circuits<br><br>
 <a title="Github" href="https://github.com/btankwa"><img class="linx" src="/assets/githubicon.svg"></a>
 <a title="LinkedIn" href="https://www.linkedin.com/in/brendon-tankwa-02a079143/"><img class="linx" src="/assets/linkedin-icon.svg"></a>
 </td>
 
 <td>
-<strong>Bereket Guta</strong><br>Master of CAD<br>Designed, prototyped and tested our chassis, wheels, scissor lift<br><br>
+<strong>Bereket Guta</strong><br>Designed, prototyped and tested our chassis, wheels, scissor lift<br><br>
 
 <a title="Github" href="https://github.com/bguta"><img class="linx" src="/assets/githubicon.svg"></a>
 <a title="LinkedIn" href="https://www.linkedin.com/in/bereket-guta/"><img class="linx" src="/assets/linkedin-icon.svg"></a>
 </td>
 
 <td>
-<strong>Jessica Ma</strong><br>Master of the Claw<br>
-
-Designed, tested, and coded every aspect of the claw<br>
+<strong>Jessica Ma</strong><br>Designed, tested, and coded every aspect of the claw<br>
 <br>
 
 <a title="Github" href="https://github.com/gejessicama"><img class="linx" src="/assets/githubicon.svg"></a>
 <a title="LinkedIn" href="https://www.linkedin.com/in/gejessicama/"><img class="linx" src="/assets/linkedin-icon.svg"></a>
-<a title="Website" href="http://jessicama.ca"><img class="linx" src="/assets/website-icon.svg"></a>
 </td>
 
 <td>
-<strong>Maria Sottile</strong><br>Master of Code<br>Built our Ewok sensors, structured and wrote much of the code<br><br>
+<strong>Maria Sottile</strong><br>Built our Ewok sensors, structured and wrote much of the code<br><br>
 <a title="Github" href="https://github.com/masottile"><img class="linx" src="/assets/githubicon.svg"></a>
 <a title="LinkedIn" href="https://www.linkedin.com/in/maria-sottile-723153162/"><img class="linx" src="/assets/linkedin-icon.svg"></a>
 </td>

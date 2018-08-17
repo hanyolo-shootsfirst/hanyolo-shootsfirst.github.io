@@ -5,17 +5,17 @@ permalink: /competition/
 ---
 
 
-The competition required us to complete a series of tasks using a multifunctional autonomous robot: 
+The competition required us to complete a series of tasks with a multifunctional autonomous robot: 
   - following a black strip of electrical tape
-  - detecting and collecting objects the size of a soda
-  - crossing 6" gaps
-  - detecting a fluctuating Infra-Red signal
-  - detecting edges and avoiding a fall off the competition surface
-  
+  - detecting and collecting objects the size of a soda can
+  - crossing 6" gaps 
+  - detecting a fluctuating infrared signal
+  - detecting edges to avoid falling off the competition surface
+
 ![competition surface](/assets/compsurface.PNG)
 
-Our strategy evolved with time. Initially the goal was to follow the tape using PD control, crossing one gap using an aluminium bridge, until the tape's end while collecting all 3 Ewoks using a double jointed claw and detecting R2D2's signal. After that we would cross the second gap and apply an edge detection mechanism to lead us to the prime prize Chewbacca then ziplining all objects to safety.
+Originally, our plan was to follow the tape until its end using an aluminum bridge to cross the gap and an IR sensor to determine when we could pass through the gate. A double-jointed claw would pick up Ewoks as we sensed them and place them into a basket. Leaving the tape, we would drop another bridge to cross the second gap, pick up the last Ewok, and cross the suspension bridge by following the edge. After picking up Chewbacca, we would use a scissor lift to hook the basket onto the zipline and send them all home. 
 
-On the err of prudency we ammended our strategy as our sense of what could be accomplished with our time limitations improved. We would now follow the tape to its end as before (foregoing the rest of teh path to Chewbacca) then return to the start with the Ewoks we had rescued.
+As the competition approached, we amended our strategy to favour reliability and consistency; instead of crossing the second gap, we would drive back after picking up the first three Ewoks. 
 
-By competition day, the major functionalities of the robot were in order and the robot could peform all its indended tasks. The largest point of uncertainty was in setting the parameters that calibarated the robot. For this we would have required more time and testing on the track. As a result our competition score was lower than expected.
+By competition day, the major functionalities of the robot were in order and the robot could perform all its intended tasks. The largest point of uncertainty was in setting the parameters that calibrated the robot. For this we would have required more time and testing on the track. 

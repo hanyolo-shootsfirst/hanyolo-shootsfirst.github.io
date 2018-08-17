@@ -3,10 +3,9 @@ layout: page
 title: Electrical
 permalink: /electrical/
 ---
+<div style="text-align:center"><img style="width:100%" src="/assets/circuitry.jpg"></div>
 
-![circuitry](/assets/circuitry.jpg)
-
-Our goal was to design an electrically robust system. How?
+To design an electrically robust system, we followed this framework:
 
 1. Researching, prototyping and testing all circuits before integrating them into our system.
 2. Minimizing the number of electrical components and substituting with software solutions where possible.
@@ -19,15 +18,16 @@ Our goal was to design an electrically robust system. How?
 
 For circuits which had a high likelihood of failure we made multiple sets of that circuit and designed our main PCB for easy exchange.
 
-## Some Key circuits
-
-# Infra-Red signal Circuit
+## Infrared signal circuit
 
 ![IR-circuit-diagram](/assets/ir_circuit.png)
-An infra-red signal detector circuit was used to distinguish between a 1kHz and a 10kHz signal being emitted by R2D2 to allow the robot into the Stormtrooper stronghold without triggering an alarm. This circuit was particularly interesting because it was able to consistently detect and identify the signal from a distance of 10 meters!
 
 
-# H-Bridges
+
+R2D2 oscillated between emitting a 10 kHz and 1 kHz infrared wave. At 10 kHz, we were able to enter the Stormtrooper stronghold without triggering an alarm. This circuit was used to distinguish between these frequencies, and was particularly interesting because it was able to consistently detect and identify the signal from a distance of 10 meters!
+
+
+## H-Bridge circuit
 
 ![H-Bridge Circuit](/assets/hbridge.png)
-To enable differential drive, H-bridges where used to power motors. This H-Bridge circuit (developed by an ENPH alum Scott Lawson) was favourable because it was robust and easy to prototype on to a small PCB.
+To enable differential drive, H-bridges were used to power motors. This H-Bridge circuit (developed by an ENPH alum Scott Lawson) was favourable because it was robust and easy to prototype onto a small PCB.

@@ -18,7 +18,7 @@ permalink: /team/
 <tr>
 
 <td>
-<strong>Brendon Tankwa</strong><br>Master of circuitry<br><br>
+<strong>Brendon Tankwa</strong><br>Master of Circuitry<br><br>
 <a title="Github" href="https://github.com/btankwa"><img class="linx" src="/assets/githubicon.svg"></a>
 <a title="LinkedIn" href="https://www.linkedin.com/in/brendon-tankwa-02a079143/"><img class="linx" src="/assets/linkedin-icon.svg"></a>
 </td>
